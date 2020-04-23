@@ -1,0 +1,135 @@
+/* Starter Code */
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    }
+
+html, body {
+        margin: 0;
+        padding: 0;
+        border: none;
+        }
+        
+body {
+        height: 100vh;
+        }
+
+/* div containers */
+.header {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.article {
+    border: none;
+    flex-grow: 1;
+}
+
+.sidebar {
+    border: none;
+}
+
+.bottom {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: inline-flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10%;
+}
+
+/* Font */
+.not {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom: none;
+    align-items: center;
+}
+
+h1 {
+    padding: 5px 50% 5px 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+h2 {
+    font-weight: unset;
+}
+
+a {
+    color: blueviolet;
+    display: flex;
+    flex-grow: 1; 
+}
+
+p {
+    padding-bottom: 200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+@media(min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    /* div containers */
+    .header {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .article {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        flex-grow: 1;
+    }
+
+    .box {
+        margin-left: 550px;
+        flex-grow: 1;
+    }
+
+    /* font */
+    a {
+        justify-content: center;
+    }
+
+    h1 {
+        padding: 5px 30% 5px 5px;
+    }
+
+    .st {
+        padding-right: 800px;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    
+}
+
